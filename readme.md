@@ -4,6 +4,8 @@
 
 ![](https://img.shields.io/badge/python-3-blue.svg)
 
+> [討論群組](https://m.me/join/AbaVN1BjdDB1FnY2)
+
 ## Lectures
 
 - Introduction
