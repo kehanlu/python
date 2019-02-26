@@ -8,17 +8,23 @@
 
 ## Lectures
 
-- Introduction
-  - 2/25
-  - [slide](https://hanklu.tw/python/slides/lecture1.pdf)
-  - [Install Python&Jupyter](https://hackmd.io/s/S1fraKMRm)
-- Python basic
-  - Variable and types
-    - [slide](https://hanklu.tw/python/slides/lecture2.html)
-    - [notebook](https://hanklu.tw)
-- 網路爬蟲
-- 資料視覺化
-- 網路應用（後端、Chatbot）
+### Introduction
+
+- 2/25
+- [slide](https://hanklu.tw/python/slides/lecture1.pdf)
+- [Install Python&Jupyter](https://hackmd.io/s/S1fraKMRm)
+
+### Python basic
+
+- Variable and types
+  - [slide](https://hanklu.tw/python/slides/lecture2.html)
+  - [notebook](http://hanklu.tw/python/notebooks/variable&type.ipynb)
+
+### 網路爬蟲
+
+### 資料視覺化
+
+### 網路應用（後端、Chatbot）
 
 ## Other resources
 
