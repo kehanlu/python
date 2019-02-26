@@ -13,6 +13,9 @@
   - [slide](https://hanklu.tw/python/slides/lecture1.pdf)
   - [Install Python&Jupyter](https://hackmd.io/s/S1fraKMRm)
 - Python basic
+  - Variable and types
+    - [slide](https://hanklu.tw/python/slides/lecture2.html)
+    - [notebook](https://hanklu.tw)
 - 網路爬蟲
 - 資料視覺化
 - 網路應用（後端、Chatbot）
@@ -29,3 +32,8 @@
 
 - Mosky Liu
 - slides
+
+## Ref
+
+[HuskyHsu - Introducing-Python](https://github.com/HuskyHsu/Introducing-Python)
+[reveal.js](https://github.com/hakimel/reveal.js)
