@@ -6,10 +6,9 @@
 
 ## Lectures
 
-### [Slides](https://github.com/kehanlu/python/tree/master/slides)
-
-- introduction
+- Introduction
   - 2/25
+  - [slide](https://hanklu.tw/python/slides/lecture1.pdf)
   - [Install Python&Jupyter](https://hackmd.io/s/S1fraKMRm)
 - Python basic
 - 網路爬蟲
