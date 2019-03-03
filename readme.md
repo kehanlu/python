@@ -42,7 +42,8 @@
 - Mosky Liu
 - slides
 
+[HuskyHsu - Introducing-Python](https://github.com/HuskyHsu/Introducing-Python)
+
 ## Ref
 
-[HuskyHsu - Introducing-Python](https://github.com/HuskyHsu/Introducing-Python)
 [reveal.js](https://github.com/hakimel/reveal.js)
