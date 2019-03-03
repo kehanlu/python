@@ -19,6 +19,9 @@
 - Variable and types
   - [slide](https://hanklu.tw/python/slides/lecture2.html)
   - [notebook](http://hanklu.tw/python/notebooks/variable&type.ipynb)
+- Condition
+  - [slide](https://hanklu.tw/python/slides/lecture3.html)
+  - [notebook](http://hanklu.tw/python/notebooks/condition.ipynb)
 
 ### 網路爬蟲
 

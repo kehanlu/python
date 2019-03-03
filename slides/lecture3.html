@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>lecture2 slides</title>
+<title>lecture3 slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11905,7 +11905,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variable-&amp;-Type">Variable &amp; Type<a class="anchor-link" href="#Variable-&amp;-Type">&#182;</a></h1><p><code>臺科大 程式設計研究社</code></p>
+<h1 id="Condition">Condition<a class="anchor-link" href="#Condition">&#182;</a></h1><p><code>臺科大 程式設計研究社</code></p>
 <p><code>hanklu</code></p>
 
 </div>
@@ -11915,276 +11915,39 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variable">Variable<a class="anchor-link" href="#Variable">&#182;</a></h1>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>程式是由「資料」和「指令」所組成</li>
-<li><code>=</code><ul>
-<li>assign 賦值、指派</li>
-<li>把值放進叫做 x 的箱子
-<img src="https://i.imgur.com/Q6kGdBQ.png" alt=""></li>
+<h2 id="&#26781;&#20214;&#21028;&#26039;&#30340;&#36939;&#31639;&#23376;">&#26781;&#20214;&#21028;&#26039;&#30340;&#36939;&#31639;&#23376;<a class="anchor-link" href="#&#26781;&#20214;&#21028;&#26039;&#30340;&#36939;&#31639;&#23376;">&#182;</a></h2><ul>
+<li>回傳 True/False</li>
 </ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://i.imgur.com/FstpeaU.png" alt=""></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21629;&#21517;&#30340;&#35215;&#21063;">&#21629;&#21517;&#30340;&#35215;&#21063;<a class="anchor-link" href="#&#21629;&#21517;&#30340;&#35215;&#21063;">&#182;</a></h2><ul>
-<li>以英文字母開頭</li>
-<li>只能用<ul>
-<li>A-z  ，大小寫有別</li>
-<li>0-9</li>
-<li><code>_</code>   (底線)</li>
-</ul>
-</li>
-<li>保留字不能用
-<img src="https://i.imgur.com/ITAlZsf.png" alt=""></li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#20351;&#29992;&#22909;&#29702;&#35299;&#30340;&#21629;&#21517;&#65292;&#23531;&#31243;&#24335;&#20063;&#35201;&#20860;&#39015;&#21487;&#35712;&#24615;">&#20351;&#29992;&#22909;&#29702;&#35299;&#30340;&#21629;&#21517;&#65292;&#23531;&#31243;&#24335;&#20063;&#35201;&#20860;&#39015;&#21487;&#35712;&#24615;<a class="anchor-link" href="#&#20351;&#29992;&#22909;&#29702;&#35299;&#30340;&#21629;&#21517;&#65292;&#23531;&#31243;&#24335;&#20063;&#35201;&#20860;&#39015;&#21487;&#35712;&#24615;">&#182;</a></h2><h3 id="Good:">Good:<a class="anchor-link" href="#Good:">&#182;</a></h3><ul>
-<li>num_of_days</li>
-<li>count</li>
-<li>message_from_user</li>
-</ul>
-<h3 id="Bad:">Bad:<a class="anchor-link" href="#Bad:">&#182;</a></h3><ul>
-<li>a1,b1,c1</li>
-<li>lIll1, magic_number,  i_dont_want_any_bug</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Type-&#22411;&#24907;">Type &#22411;&#24907;<a class="anchor-link" href="#Type-&#22411;&#24907;">&#182;</a></h1>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="note">note<a class="anchor-link" href="#note">&#182;</a></h2><p>在教學上我們會很頻繁的用 <code>print()</code> 來和電腦互動，這讓初學者很快的了解到底 python 做了什麼。</p>
-<p>未來熟悉之後，可以試著在腦袋裡面運作 python，就不需要每個東西都 <code>print()</code> 出來驗證。</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><code>type(x)</code> 回傳 x 物件的的型態</p>
-<h2 id="python-&#20839;&#24314;&#22411;&#24907;&#65306;">python &#20839;&#24314;&#22411;&#24907;&#65306;<a class="anchor-link" href="#python-&#20839;&#24314;&#22411;&#24907;&#65306;">&#182;</a></h2><ul>
-<li><code>bool</code> 布林值(True/False)</li>
-<li><code>int</code> 整數</li>
-<li><code>float</code> 浮點數（帶有小數的數）</li>
-<li><code>str</code> 字串</li>
-<li><code>list</code> 串列</li>
-<li><code>dict</code> 字典</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="kc">True</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="mf">3.14</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="s2">&quot;0987878887&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="s2">&quot;Happy pig&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">]))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">({</span><span class="s2">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;hank&quot;</span><span class="p">,</span><span class="s2">&quot;sid&quot;</span><span class="p">:</span><span class="s2">&quot;B10530000&quot;</span><span class="p">}))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;bool&#39;&gt;
-&lt;class &#39;int&#39;&gt;
-&lt;class &#39;float&#39;&gt;
-&lt;class &#39;str&#39;&gt;
-&lt;class &#39;str&#39;&gt;
-&lt;class &#39;list&#39;&gt;
-&lt;class &#39;dict&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mf">3.14</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;pig pig pig&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">x</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;hank&quot;</span><span class="p">,</span><span class="s2">&quot;sid&quot;</span><span class="p">:</span><span class="s2">&quot;B10530000&quot;</span><span class="p">}</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;bool&#39;&gt;
-&lt;class &#39;int&#39;&gt;
-&lt;class &#39;float&#39;&gt;
-&lt;class &#39;str&#39;&gt;
-&lt;class &#39;list&#39;&gt;
-&lt;class &#39;dict&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="int-float">int float<a class="anchor-link" href="#int-float">&#182;</a></h1><h3 id="&#22235;&#21063;&#36939;&#31639;">&#22235;&#21063;&#36939;&#31639;<a class="anchor-link" href="#&#22235;&#21063;&#36939;&#31639;">&#182;</a></h3><table>
+<table>
 <thead><tr>
-<th>符號</th>
-<th>解釋</th>
-<th>用法</th>
+<th>運算子</th>
+<th>作用</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>+</td>
-<td>加法</td>
-<td>2 + 3 = 5</td>
+<td><code>a == b</code></td>
+<td>a 和 b 相等</td>
 </tr>
 <tr>
-<td>-</td>
-<td>減法</td>
-<td>2 - 3 = -1</td>
+<td><code>a != b</code></td>
+<td>a 和 b 不相等</td>
 </tr>
 <tr>
-<td>*</td>
-<td>乘法</td>
-<td>2 * 3 = 6</td>
+<td><code>a &gt; b</code></td>
+<td></td>
 </tr>
 <tr>
-<td>/</td>
-<td>浮點數除法</td>
-<td>3 / 2 = 1.5</td>
+<td><code>a &lt; b</code></td>
+<td></td>
 </tr>
 <tr>
-<td>//</td>
-<td>整數除法 (商數)</td>
-<td>3 // 2 = 1</td>
+<td><code>a &gt;= b</code></td>
+<td></td>
 </tr>
 <tr>
-<td>%</td>
-<td>餘數</td>
-<td>3 % 2 = 1</td>
-</tr>
-<tr>
-<td>**</td>
-<td>次方</td>
-<td>2 ** 3 = 8</td>
+<td><code>a &lt;= b</code></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -12192,31 +11955,18 @@ a.anchor-link {
 </div>
 </div>
 </div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="string">string<a class="anchor-link" href="#string">&#182;</a></h1><ul>
-<li>以<code>""</code> 或 <code>''</code>包起來</li>
-<li><code>a+b</code> 將b加在a之後</li>
-<li><code>a*b</code> 將a重複b次<code>(b is int)</code></li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s1</span> <span class="o">=</span> <span class="s1">&#39;hello world, &#39;</span>
-<span class="n">s2</span> <span class="o">=</span> <span class="s2">&quot;goodbye everyone&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="o">+</span><span class="n">s2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="o">+</span><span class="s1">&#39; xxxxx &#39;</span><span class="o">+</span><span class="n">s2</span><span class="o">+</span><span class="s1">&#39;~&#39;</span><span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">!=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">==</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12233,598 +11983,10 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>hello world, 
-goodbye everyone
-hello world, hello world, 
-hello world, goodbye everyone
-hello world,  xxxxx goodbye everyone~~~~~~~~~~~~~~~~~~~~
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#22411;&#24907;&#36681;&#25563;">&#22411;&#24907;&#36681;&#25563;<a class="anchor-link" href="#&#22411;&#24907;&#36681;&#25563;">&#182;</a></h2><p>把某個型態轉換成其他型態</p>
-<h3 id="int()-float()"><code>int()</code> <code>float()</code><a class="anchor-link" href="#int()-float()">&#182;</a></h3><ul>
-<li>從其他形態轉成 int,float</li>
-<li>需注意是否為數字：不能將 'abc' 轉換成「數字」</li>
-</ul>
-<h3 id="str()"><code>str()</code><a class="anchor-link" href="#str()">&#182;</a></h3><ul>
-<li>將其他型態轉換為 string</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># int() 型態轉換</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mf">3.14</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-
-<span class="n">y</span> <span class="o">=</span> <span class="s2">&quot;happy&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>  <span class="c1"># type error! 不能將 &quot;happy&quot; 轉成數字</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3.14
-&lt;class &#39;float&#39;&gt;
-3
-&lt;class &#39;int&#39;&gt;
-happy
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-22-8bc3710f4df4&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     11</span> y <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">&#34;happy&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">     12</span> print<span class="ansi-blue-fg">(</span>y<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">---&gt; 13</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span>int<span class="ansi-blue-fg">(</span>y<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>  <span class="ansi-red-fg"># type error! 不能將 &#34;happy&#34; 轉成數字</span>
-
-<span class="ansi-red-fg">ValueError</span>: invalid literal for int() with base 10: &#39;happy&#39;</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># float()</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># 會是 3.0</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;3.14&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3
-3.0
-3.14
-3.14
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># str()</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="mi">3</span><span class="p">)</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="mi">3</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>300
-100100100
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h1><p>小明想和飲料公司進貨蜂蜜檸檬，一杯 35 元，他要買 100 杯，請問他要帶多少錢？</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">35</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
-
-<span class="c1"># or</span>
-
-<span class="n">price</span> <span class="o">=</span> <span class="mi">35</span>
-<span class="n">number</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">price</span> <span class="o">*</span> <span class="n">number</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3500
-3500
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h1><p>小明還沒決定買幾杯，你可以幫他寫一隻程式，讓他隨時可以輸入一杯的單價和買的量，print()出他需要帶多少錢嗎？？</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">price</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-<span class="c1"># do your self...</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>15
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21021;&#25506;-function-&amp;-method">&#21021;&#25506; function &amp; method<a class="anchor-link" href="#&#21021;&#25506;-function-&amp;-method">&#182;</a></h2><ul>
-<li>method 是一種 function，兩者作用的地方不太一樣</li>
-<li>會用 call 這個動詞來說明使用一個 function 或 method（call <code>print()</code> function）</li>
-<li>每個 function 都有名字</li>
-<li>可以傳入「參數(parameter)」</li>
-<li>會 return 值或 None</li>
-</ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/1200px-Function_machine2.svg.png" width="200px"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Function">Function<a class="anchor-link" href="#Function">&#182;</a></h2><p><img src="https://i.imgur.com/VzAaPlf.png" width="400px"></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="o">-</span><span class="mf">3.14</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3.14
--3.14
-3.14
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="print()-&#26159;&#25105;&#20497;&#24050;&#32147;&#29992;&#30340;&#24456;&#32722;&#24931;&#30340;-function"><code>print()</code> &#26159;&#25105;&#20497;&#24050;&#32147;&#29992;&#30340;&#24456;&#32722;&#24931;&#30340; function<a class="anchor-link" href="#print()-&#26159;&#25105;&#20497;&#24050;&#32147;&#29992;&#30340;&#24456;&#32722;&#24931;&#30340;-function">&#182;</a></h3><ul>
-<li>return None  (回傳一個 None)</li>
-<li>他可以有不同的「參數」
-<img src="https://i.imgur.com/wAc08qX.png" alt=""></li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;hello world&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;today is a good day&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;today is a good day&#39;</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">&quot;~~~~~~&quot;</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot;!!!</span><span class="se">\n\n\n</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>hello world
-hello world today is a good day
-hello world~~~~~~today is a good day~~~~~~hello world!!!
-
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="method-&#26159;&#20160;&#40636;&#21602;&#65311;">method &#26159;&#20160;&#40636;&#21602;&#65311;<a class="anchor-link" href="#method-&#26159;&#20160;&#40636;&#21602;&#65311;">&#182;</a></h2><ul>
-<li>不同「型態」上的 function，如 <code>string</code> 的 method</li>
-<li>用 <code>.</code> 接在一個 <code>variable</code>、<code>object</code> 之後</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;hello world&quot;</span>
-<span class="c1"># 對 len() 這個 function 傳入 x 這個 string</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-
-<span class="c1"># replace() 是一種 string 的「方法」</span>
-<span class="c1"># 對 x 這個 string 做一個 replace() 的動作，傳入 &quot;hello&quot;,&quot;hey!&quot; 兩個參數，回傳一個新的 string</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">,</span><span class="s2">&quot;hey!&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;mickey mouce&#39;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;mickey&quot;</span><span class="p">,</span><span class="s2">&quot;big&quot;</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>11
-hey! world
-big mouce
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="string&#24120;&#29992;&#30340;">string&#24120;&#29992;&#30340;<a class="anchor-link" href="#string&#24120;&#29992;&#30340;">&#182;</a></h2><p><a href="https://docs.python.org/3.6/library/stdtypes.html#string-methods">see document</a></p>
-<h2 id="function">function<a class="anchor-link" href="#function">&#182;</a></h2><p><code>len(x)</code> 回傳x字串的長度</p>
-<h2 id="method">method<a class="anchor-link" href="#method">&#182;</a></h2><p>以<code>.</code> 接在 string variable 之後</p>
-<h3 id="s.replace(a,b)"><code>s.replace(a,b)</code><a class="anchor-link" href="#s.replace(a,b)">&#182;</a></h3><ul>
-<li>將 a 的內容以 b 取代</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;I like to eat apple&quot;</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">))</span> <span class="c1"># replace space with nothing!  -&gt; 去除空白</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span><span class="s2">&quot;banana&quot;</span><span class="p">))</span>  <span class="c1"># replace apple with banana</span>
-
-<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span><span class="s2">&quot;banana&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;like&quot;</span><span class="p">,</span><span class="s2">&quot;don&#39;t like&quot;</span><span class="p">)</span> <span class="c1">#先替換 apple 再替換 like</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>I like to eat apple
-Iliketoeatapple
-I like to eat banana
-I don&#39;t like to eat banana
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="string-method">string method<a class="anchor-link" href="#string-method">&#182;</a></h2><h3 id="s.strip(a)"><code>s.strip(a)</code><a class="anchor-link" href="#s.strip(a)">&#182;</a></h3><ul>
-<li>預設 a 為 <code>" "</code> (空白)</li>
-<li>把 a 從頭尾去除</li>
-</ul>
-<h3 id="s.lstript(a)"><code>s.lstript(a)</code><a class="anchor-link" href="#s.lstript(a)">&#182;</a></h3><ul>
-<li>把 a 從左邊去除</li>
-</ul>
-<h3 id="s.rstript(a)"><code>s.rstript(a)</code><a class="anchor-link" href="#s.rstript(a)">&#182;</a></h3><ul>
-<li>把 a 從右邊去除</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;    hey whats up   &quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
-
-<span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;++++ hey whats up ++++&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s2">&quot;+&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s2">&quot;+&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">&quot;+&quot;</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>    hey whats up   
-hey whats up
- hey whats up ++++
- hey whats up ++++
-++++ hey whats up 
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="string-method">string method<a class="anchor-link" href="#string-method">&#182;</a></h2><h3 id="s.split(a)"><code>s.split(a)</code><a class="anchor-link" href="#s.split(a)">&#182;</a></h3><ul>
-<li>以 <code>a</code> 切開</li>
-<li>預設為空白</li>
-</ul>
-<h3 id="s.count(a)"><code>s.count(a)</code><a class="anchor-link" href="#s.count(a)">&#182;</a></h3><ul>
-<li>字串中有多少個 <code>a</code></li>
-</ul>
-<h3 id="s.startswith(a)-s.endswith(a)"><code>s.startswith(a)</code> <code>s.endswith(a)</code><a class="anchor-link" href="#s.startswith(a)-s.endswith(a)">&#182;</a></h3><ul>
-<li>字串中是不是以 <code>a</code> 為開頭？</li>
-<li>回傳 True/False</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;it is the real life?/it is just fantasy?&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;is&#39;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;it&#39;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;pineapple&#39;</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;it&#39;, &#39;is&#39;, &#39;the&#39;, &#39;real&#39;, &#39;life?/it&#39;, &#39;is&#39;, &#39;just&#39;, &#39;fantasy?&#39;]
-[&#39;it is the real life?&#39;, &#39;it is just fantasy?&#39;]
-2
+<pre>True
+True
+True
+True
 True
 False
 </pre>
@@ -12839,23 +12001,276 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#32244;&#32722;&#65306;fix-bug">&#32244;&#32722;&#65306;fix bug<a class="anchor-link" href="#&#32244;&#32722;&#65306;fix-bug">&#182;</a></h1>
+<h2 id="&#27599;&#19968;&#31278;-type-&#37117;&#21487;&#20197;&#23565;&#25033;&#21040;-True/False">&#27599;&#19968;&#31278; type &#37117;&#21487;&#20197;&#23565;&#25033;&#21040; True/False<a class="anchor-link" href="#&#27599;&#19968;&#31278;-type-&#37117;&#21487;&#20197;&#23565;&#25033;&#21040;-True/False">&#182;</a></h2><h3 id="False">False<a class="anchor-link" href="#False">&#182;</a></h3><ul>
+<li>zero of any numeric type</li>
+<li>any empty sequence</li>
+<li>any empty mapping</li>
+</ul>
+<table>
+<thead><tr>
+<th>範例</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>零</td>
+</tr>
+<tr>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>''</td>
+<td>空的 string</td>
+</tr>
+<tr>
+<td>[]</td>
+<td>空的 list</td>
+</tr>
+<tr>
+<td>{}</td>
+<td>空的 dict</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#20854;&#20182;&#37117;&#26159;-True">&#20854;&#20182;&#37117;&#26159; True<a class="anchor-link" href="#&#20854;&#20182;&#37117;&#26159;-True">&#182;</a></h3>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="s1">&#39;Haha&#39;</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">([]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">([</span><span class="s1">&#39;haha&#39;</span><span class="p">,</span><span class="s1">&#39;heyhey&#39;</span><span class="p">]))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">({}))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">({</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;hank&#39;</span><span class="p">}))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>False
+True
+False
+True
+False
+True
+False
+True
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="If-elif--else"><code>If</code> <code>elif</code>  <code>else</code><a class="anchor-link" href="#If-elif--else">&#182;</a></h2><ul>
+<li>在此之前我們看到的程式都是逐行執行（sequential execution）</li>
+<li>現在我們多了比較複雜的控制結構</li>
+</ul>
+<p><img src="http://3.bp.blogspot.com/-uu_nZTD71s0/TznCog-aTzI/AAAAAAAAkdY/x5_fxowoL2U/s640/cover.jpg" alt=""></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="if-statement"><code>if statement</code><a class="anchor-link" href="#if-statement">&#182;</a></h2><ul>
+<li><code>if</code> 第一個條件</li>
+<li><code>elif</code> 其他條件，可以有 0~多個</li>
+<li><code>else</code> 沒有符合前述 condition 的其他狀況，可以不使用</li>
+<li>每一組只會有一個（或沒有）條件成立</li>
+<li>記得在屁股加上 <code>:</code> (冒號)</li>
+<li>需要以一個縮排<code>indent</code>（實際上為四個空白），做「排版」</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;is &gt; 5&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;is &gt; 2&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;is &gt; 0&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;is &lt;= 2&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>is &gt; 2
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;^_^&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>^_^
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span><span class="mi">15</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&gt;15&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&lt;=15 :)&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>x&lt;=15 :)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># https://www.ptt.cc/bbs/Salary/M.1496888683.A.057.html</span>
+
+<span class="n">salary</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+
+<span class="k">if</span> <span class="n">salary</span> <span class="o">&gt;=</span> <span class="mi">61437</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;你的所得贏過 90% 的人&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">salary</span> <span class="o">&gt;=</span> <span class="mi">33502</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;贏過 50% 的人&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;低於一半的人&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="fix-bug">fix bug<a class="anchor-link" href="#fix-bug">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s1">&#39;this is a book&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span>
-      
-<span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;I want to break free&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-
-<span class="s1">&#39;under presure&#39;</span> <span class="o">=</span> <span class="n">s</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">20</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">bmi</span><span class="o">&gt;</span><span class="mi">17</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;bmi is &gt; 5&quot;</span><span class="p">)</span>
+<span class="k">else</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;bmi is &lt;=5&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12873,9 +12288,9 @@ False
 
 <div class="output_subarea output_text output_error">
 <pre>
-<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-95-3a61db5e5749&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">4</span>
-<span class="ansi-red-fg">    s = &#34;I want to break free&#39;</span>
-    ^
+<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-13-30988a25ab08&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">1</span>
+<span class="ansi-red-fg">    if bmi&gt;17</span>
+             ^
 <span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
 </pre>
 </div>
@@ -12889,208 +12304,20 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="string-method">string method<a class="anchor-link" href="#string-method">&#182;</a></h2><h3 id="s.format()"><code>s.format()</code><a class="anchor-link" href="#s.format()">&#182;</a></h3><ul>
-<li><code>{}</code> 標記位置</li>
-<li>將傳入的值替換到指定的位子</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[86]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> loves </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;hank&quot;</span><span class="p">,</span><span class="s2">&quot;python&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-
-<span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> loves </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;jason&quot;</span><span class="p">,</span><span class="s2">&quot;java&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-
-<span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;today is </span><span class="si">{year}</span><span class="s2">/</span><span class="si">{month}</span><span class="s2">/</span><span class="si">{day}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span><span class="n">month</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">day</span><span class="o">=</span><span class="mi">26</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-
-<span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{0}</span><span class="s2">,</span><span class="si">{0}</span><span class="s2">,</span><span class="si">{1}</span><span class="s2">,</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span><span class="s2">&quot;mango&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>hank loves python
-jason loves java
-today is 2019/2/26
-apple,apple,mango,apple
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="List">List<a class="anchor-link" href="#List">&#182;</a></h2><ul>
-<li>一連串的東西</li>
-<li>以 <code>[]</code> 框住，逗號分隔</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#24120;&#29992;&#30340;">&#24120;&#29992;&#30340;<a class="anchor-link" href="#&#24120;&#29992;&#30340;">&#182;</a></h2><h2 id="function">function<a class="anchor-link" href="#function">&#182;</a></h2><h3 id="len(x)"><code>len(x)</code><a class="anchor-link" href="#len(x)">&#182;</a></h3><ul>
-<li>回傳 x 的長度
-### <code>sum(x)</code></li>
-<li>回傳 x 中所有 element 的和
-### <code>max(x)</code> <code>min(x)</code></li>
-<li>回傳最大值或最小值
-### <code>sorted(x),</code></li>
-<li>排序 x</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">alphabets</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">,</span><span class="s1">&#39;d&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;f&#39;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">alphabets</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabets</span><span class="p">))</span>
-
-<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">55</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">88</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">66</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">88</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">numbers</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">numbers</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">numbers</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;]
-6
-357
-88
-6
-[6, 6, 8, 40, 55, 66, 88, 88]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="method">method<a class="anchor-link" href="#method">&#182;</a></h2><h3 id="lst.append(a)"><code>lst.append(a)</code><a class="anchor-link" href="#lst.append(a)">&#182;</a></h3><ul>
-<li>將 a 加到 lst 的後面</li>
-</ul>
-<h3 id="lst.pop()"><code>lst.pop()</code><a class="anchor-link" href="#lst.pop()">&#182;</a></h3><ul>
-<li>將最後一個刪除掉</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">,</span><span class="s1">&#39;d&#39;</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-
-<span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;e&#39;</span><span class="p">)</span> <span class="c1"># 把 &#39;e&#39; 加到後面</span>
-<span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-
-<span class="n">lst</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;]
-[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;]
-[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#32244;&#32722;-fix-bug">&#32244;&#32722; fix bug<a class="anchor-link" href="#&#32244;&#32722;-fix-bug">&#182;</a></h1>
+<h2 id="fix-bug">fix bug<a class="anchor-link" href="#fix-bug">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-
-<span class="n">lst</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">}</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-
-<span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">x</span><span class="o">&gt;</span><span class="mi">5</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x is &gt; 5&quot;</span><span class="p">)</span>
+<span class="k">else</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x is &lt;= 5&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13108,62 +12335,71 @@ apple,apple,mango,apple
 
 <div class="output_subarea output_text output_error">
 <pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-97-4e5fe872370a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>lst <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">[</span>a<span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">&#39;b&#39;</span><span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">&#39;c&#39;</span><span class="ansi-blue-fg">]</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> print<span class="ansi-blue-fg">(</span>lst<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      3</span> 
-<span class="ansi-green-intense-fg ansi-bold">      4</span> lst <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">{</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">3</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">4</span><span class="ansi-blue-fg">}</span>
-<span class="ansi-green-intense-fg ansi-bold">      5</span> print<span class="ansi-blue-fg">(</span>lst<span class="ansi-blue-fg">)</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;a&#39; is not defined</pre>
+<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-22-6b149edd5fe7&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">2</span>
+<span class="ansi-red-fg">    if x&gt;5</span>
+          ^
+<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
+</pre>
 </div>
 </div>
 
 </div>
 </div>
 
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;&#22855;&#20598;">&#32244;&#32722;&#65306;&#22855;&#20598;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#22855;&#20598;">&#182;</a></h2><p>輸入一個數，判斷他是奇數還是偶數？</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;-&#32933;&#23429;">&#32244;&#32722;&#65306; &#32933;&#23429;<a class="anchor-link" href="#&#32244;&#32722;&#65306;-&#32933;&#23429;">&#182;</a></h2><p>肥宅都不運動，輸入身高(cm)、體重(kg)，幫忙他算出 BMI 是多少吧，並告訴他現在的狀態是什麼八</p>
+<ul>
+<li>18.5 以下 過輕</li>
+<li>18.5~25 正常</li>
+<li>25 以上 過重</li>
+</ul>
+<p>如：</p>
+<p><code>180</code> <code>70</code> -&gt; <code>21.6 正常</code></p>
+<p><code>170</code> <code>140</code> -&gt; <code>48.4 過重</code></p>
+<p><code>129.3</code> <code>129.3</code> -&gt; <code>77.3 過重</code></p>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Slice-&#20999;&#29255;">Slice &#20999;&#29255;<a class="anchor-link" href="#Slice-&#20999;&#29255;">&#182;</a></h2><ul>
-<li>對 <code>string</code>, <code>list</code> 取值的方法</li>
-<li><code>[position]</code> 第 position 位置的值</li>
-<li><code>[start: end : step]</code> 開始、結束、間隔</li>
-</ul>
-<table>
+<h2 id="&#27604;&#36611;&#35079;&#38620;&#30340;&#37007;&#36655;">&#27604;&#36611;&#35079;&#38620;&#30340;&#37007;&#36655;<a class="anchor-link" href="#&#27604;&#36611;&#35079;&#38620;&#30340;&#37007;&#36655;">&#182;</a></h2><table>
 <thead><tr>
-<th>用法</th>
-<th>效果</th>
+<th>運算子</th>
+<th>作用</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>[a]</code></td>
-<td>提取第 a 項的值</td>
+<td><code>not x</code></td>
+<td>反向邏輯（True to False,False to True）</td>
 </tr>
 <tr>
-<td><code>[:]</code></td>
-<td>提取全部</td>
+<td><code>a and b</code></td>
+<td></td>
 </tr>
 <tr>
-<td><code>[:b]</code></td>
-<td>從第0個 ~ 第 b-1 個</td>
+<td><code>a or b</code></td>
+<td></td>
 </tr>
 <tr>
-<td><code>[a:]</code></td>
-<td>從第a個 ~ 最後</td>
-</tr>
-<tr>
-<td><code>[a:b]</code></td>
-<td>從第a個 ~ 第 b 個</td>
-</tr>
-<tr>
-<td><code>[a:b:c]</code></td>
-<td>從第a項開始到第b-1項，每次間隔c</td>
+<td><code>a in b</code></td>
+<td>a 屬於 b</td>
 </tr>
 </tbody>
 </table>
@@ -13173,15 +12409,15 @@ apple,apple,mango,apple
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">,</span><span class="s1">&#39;d&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;f&#39;</span><span class="p">,</span><span class="s1">&#39;g&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="ow">not</span> <span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="ow">not</span> <span class="kc">False</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">True</span> <span class="ow">and</span> <span class="kc">False</span><span class="p">)</span> <span class="c1"># and: 其中有 False 就是 False</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">or</span> <span class="kc">False</span> <span class="ow">or</span> <span class="kc">False</span><span class="p">)</span> <span class="c1"># or: 其中有 True 就是 True</span>
 </pre></div>
 
 </div>
@@ -13198,49 +12434,10 @@ apple,apple,mango,apple
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>7
-a
-b
-&lt;class &#39;str&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;ABCDEFGHIJK&quot;</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">5</span><span class="p">:])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">8</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>ABCDE
-FGHIJK
-DEFGH
-ACEGIK
+<pre>False
+True
+False
+True
 </pre>
 </div>
 </div>
@@ -13253,25 +12450,21 @@ ACEGIK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#32244;&#32722;&#65306;&#20320;&#24190;&#26799;&#30340;">&#32244;&#32722;&#65306;&#20320;&#24190;&#26799;&#30340;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#20320;&#24190;&#26799;&#30340;">&#182;</a></h1><h3 id="&#36664;&#20837;&#23416;&#34399;-&#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#19968;&#20491;&#23416;&#24180;&#24230;&#20837;&#23416;&#30340;&#65311;">&#36664;&#20837;&#23416;&#34399; &#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#19968;&#20491;&#23416;&#24180;&#24230;&#20837;&#23416;&#30340;&#65311;<a class="anchor-link" href="#&#36664;&#20837;&#23416;&#34399;-&#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#19968;&#20491;&#23416;&#24180;&#24230;&#20837;&#23416;&#30340;&#65311;">&#182;</a></h3><h3 id="input">input<a class="anchor-link" href="#input">&#182;</a></h3><p>B10530001
-B10300888
-B10700888
-M10200111</p>
-<h3 id="output">output<a class="anchor-link" href="#output">&#182;</a></h3><p>105
-103
-107
-102</p>
+<h2 id="a-in-b"><code>a in b</code><a class="anchor-link" href="#a-in-b">&#182;</a></h2><p>常用在 <code>string</code>,<code>list</code>等結構中</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sid</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="c1"># do yourself</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;hello world&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;h&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;cat&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;cat&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;cat&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">x</span> <span class="ow">or</span> <span class="s1">&#39;world&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13288,7 +12481,10 @@ M10200111</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1
+<pre>True
+False
+True
+True
 </pre>
 </div>
 </div>
@@ -13297,15 +12493,83 @@ M10200111</p>
 </div>
 
 </div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;apple&#39;</span><span class="p">,</span><span class="s1">&#39;orange&#39;</span><span class="p">,</span><span class="s1">&#39;banana&#39;</span><span class="p">,</span><span class="s1">&#39;mango&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;apple&#39;</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pineapple&#39;</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Apple&#39;</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+False
+False
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">question</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入：&#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="s2">&quot;天氣&quot;</span> <span class="ow">in</span> <span class="n">question</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;晴時多雲偶陣雨&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="s2">&quot;新聞&quot;</span> <span class="ow">in</span> <span class="n">question</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;新聞都是假的&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="s2">&quot;肥宅科大&quot;</span> <span class="ow">in</span> <span class="n">question</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;你是指台科嗎？&quot;</span><span class="p">)</span>
+    
+<span class="k">elif</span> <span class="s2">&quot;謝謝&quot;</span> <span class="o">==</span> <span class="n">question</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;不客氣&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="s2">&quot;你好爛&quot;</span> <span class="o">==</span> <span class="n">question</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;抱歉，我還在學習&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;我聽不懂你在說什麼喔&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#32244;&#32722;&#65306;&#20320;&#35712;&#21738;&#21862;">&#32244;&#32722;&#65306;&#20320;&#35712;&#21738;&#21862;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#20320;&#35712;&#21738;&#21862;">&#182;</a></h1><h3 id="&#36664;&#20837;&#26576;&#23416;&#26657;&#30340;-mail-&#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#20491;&#23416;&#26657;&#65281;">&#36664;&#20837;&#26576;&#23416;&#26657;&#30340; mail &#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#20491;&#23416;&#26657;&#65281;<a class="anchor-link" href="#&#36664;&#20837;&#26576;&#23416;&#26657;&#30340;-mail-&#65292;&#21028;&#26039;&#20182;&#26159;&#21738;&#20491;&#23416;&#26657;&#65281;">&#182;</a></h3><ul>
-<li><code>B10530004@mail.ntust.edu.tw</code>  -&gt; ntust</li>
-<li><code>b05000000@mail.ntu.edu.tw</code>  -&gt; ntu</li>
-<li><code>b05000000@ntnu.edu.tw</code>  -&gt; ntnu</li>
-<li><code>b05000000@fju.edu.tw</code> -&gt; fju</li>
+<h2 id="&#32244;&#32722;&#65306;&#26399;&#26411;&#32771;">&#32244;&#32722;&#65306;&#26399;&#26411;&#32771;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#26399;&#26411;&#32771;">&#182;</a></h2><p>為了拯救期末考，你寫了一支程式，輸入期中、作業成績，算一下期末至少要考幾分才會及格？</p>
+<p>成績占比：</p>
+<ul>
+<li>期中 30%</li>
+<li>期末 40%</li>
+<li>作業 30%</li>
+</ul>
+<ul>
+<li>如果不可能及格，<code>print("提早放棄")</code></li>
+<li>如果不用考也可以及格，<code>print("提早放假")</code></li>
 </ul>
 
 </div>
@@ -13313,10 +12577,11 @@ M10200111</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mail</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">midtern</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">homework</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="c1"># do yourself</span>
 </pre></div>
 
@@ -13334,7 +12599,8 @@ M10200111</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1
+<pre>0
+0
 </pre>
 </div>
 </div>
@@ -13347,10 +12613,10 @@ M10200111</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="dict-&#23383;&#20856;">dict &#23383;&#20856;<a class="anchor-link" href="#dict-&#23383;&#20856;">&#182;</a></h2><ul>
-<li><code>key value</code> pair</li>
-<li><code>key</code> 為 <code>str</code></li>
-<li><code>value</code> 為任意的 object</li>
+<h2 id="&#24034;&#29376;&#32080;&#27083;(nest)">&#24034;&#29376;&#32080;&#27083;(nest)<a class="anchor-link" href="#&#24034;&#29376;&#32080;&#27083;(nest)">&#182;</a></h2><ul>
+<li>很多層</li>
+<li>只要記清楚 if 的規則，就可以很輕鬆的判斷</li>
+<li>不同縮排（<code>indent</code>），為不同的 if statement</li>
 </ul>
 
 </div>
@@ -13358,50 +12624,22 @@ M10200111</p>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dic</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;hank&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;sid&#39;</span><span class="p">:</span><span class="s1">&#39;B10530000&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span>
-    <span class="s1">&#39;is_friendly&#39;</span><span class="p">:</span> <span class="kc">True</span>
-<span class="p">}</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
-
-<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">19</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
-
-<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;male&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
-
-<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;phone&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;iPhone 6s&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&gt;5&quot;</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&gt;10&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&gt;5 but x&lt;=10&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x&lt;=5&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{&#39;name&#39;: &#39;hank&#39;, &#39;sid&#39;: &#39;B10530000&#39;, &#39;age&#39;: 18, &#39;is_friendly&#39;: True}
-{&#39;name&#39;: &#39;hank&#39;, &#39;sid&#39;: &#39;B10530000&#39;, &#39;age&#39;: 19, &#39;is_friendly&#39;: True}
-{&#39;name&#39;: &#39;hank&#39;, &#39;sid&#39;: &#39;B10530000&#39;, &#39;age&#39;: 19, &#39;is_friendly&#39;: True, &#39;gender&#39;: &#39;male&#39;}
-{&#39;name&#39;: &#39;hank&#39;, &#39;sid&#39;: &#39;B10530000&#39;, &#39;age&#39;: 19, &#39;is_friendly&#39;: True, &#39;gender&#39;: &#39;male&#39;, &#39;phone&#39;: &#39;iPhone 6s&#39;}
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13410,99 +12648,34 @@ M10200111</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="dict-method">dict method<a class="anchor-link" href="#dict-method">&#182;</a></h2><h3 id="dic[x]"><code>dic[x]</code><a class="anchor-link" href="#dic[x]">&#182;</a></h3><ul>
-<li>取出 key 為 x 的那一項，，若不存在會出現 error</li>
+<h2 id="fix-bug">fix bug<a class="anchor-link" href="#fix-bug">&#182;</a></h2><ul>
+<li>如果有問題，判斷是不是可以解決<ul>
+<li>可以解決：have problem in life but i can solve it</li>
+<li>不能解決：have problem in life but i dont know how to deal with it</li>
 </ul>
-<h3 id="dic.get(x)"><code>dic.get(x)</code><a class="anchor-link" href="#dic.get(x)">&#182;</a></h3><ul>
-<li>取出 key 為 x 的那一項，若不存在會回傳 None</li>
+</li>
+<li>如果沒有問題：i dont have problem in life</li>
 </ul>
 
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dic</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;hank&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;sid&#39;</span><span class="p">:</span><span class="s1">&#39;B10530000&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span>
-    <span class="s1">&#39;is_friendly&#39;</span><span class="p">:</span> <span class="kc">True</span>
-<span class="p">}</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;address&#39;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;address&#39;</span><span class="p">])</span> <span class="c1"># key error!</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>hank
-18
-None
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-76-36ab43f60ae9&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     10</span> 
-<span class="ansi-green-intense-fg ansi-bold">     11</span> print<span class="ansi-blue-fg">(</span>dic<span class="ansi-blue-fg">.</span>get<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;address&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">---&gt; 12</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span>dic<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;address&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># key error!</span>
-
-<span class="ansi-red-fg">KeyError</span>: &#39;address&#39;</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#32244;&#32722;&#65306;fix-bug-&#32933;&#32982;&#21839;&#38988;">&#32244;&#32722;&#65306;fix bug &#32933;&#32982;&#21839;&#38988;<a class="anchor-link" href="#&#32244;&#32722;&#65306;fix-bug-&#32933;&#32982;&#21839;&#38988;">&#182;</a></h1><h3 id="&#24171;-Hank-&#31639;&#19968;&#19979;-BMI-&#21543;">&#24171; Hank &#31639;&#19968;&#19979; BMI &#21543;<a class="anchor-link" href="#&#24171;-Hank-&#31639;&#19968;&#19979;-BMI-&#21543;">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">body</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;height&#39;</span><span class="p">:</span> <span class="mi">180</span><span class="p">,</span>
-    <span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">70</span><span class="p">,</span>
-    <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">37</span>
-    <span class="n">gender</span><span class="p">:</span> <span class="s1">&#39;male&#39;</span>
-<span class="p">}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">problem_in_life</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">can_solve</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># do yourself</span>
+<span class="c1"># fix below</span>
+<span class="k">if</span> <span class="n">problem_in_life</span>
+<span class="k">if</span> <span class="n">can_solve</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;have problem in life but i can solve it&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;have problem in life and i dont know how to deal with it&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;i dont have problem in life&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13520,9 +12693,9 @@ None
 
 <div class="output_subarea output_text output_error">
 <pre>
-<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-91-ca68565077e4&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">5</span>
-<span class="ansi-red-fg">    gender: &#39;male&#39;</span>
-         ^
+<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-32-965c75e6034c&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">5</span>
+<span class="ansi-red-fg">    if problem_in_life</span>
+                      ^
 <span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
 </pre>
 </div>
@@ -13531,7 +12704,22 @@ None
 </div>
 </div>
 
-</div></section></section>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;&#38287;&#24180;">&#32244;&#32722;&#65306;&#38287;&#24180;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#38287;&#24180;">&#182;</a></h2><p>輸入年份：判斷是不是閏年</p>
+<ul>
+<li>西元年份除以4不可整除，為平年。</li>
+<li>西元年份除以4可整除，且除以100不可整除，為閏年。</li>
+<li>西元年份除以100可整除，且除以400不可整除，為平年</li>
+<li>西元年份除以400可整除，為閏年。</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div>
 </div>
 
