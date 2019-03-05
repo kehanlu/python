@@ -22,6 +22,9 @@
 - Condition
   - [slide](https://hanklu.tw/python/slides/lecture3.html)
   - [notebook](http://hanklu.tw/python/notebooks/condition.ipynb)
+- loop
+  - [slide](https://hanklu.tw/python/slides/lecture4.html)
+  - [notebook](http://hanklu.tw/python/notebooks/loop.ipynb)
 
 ### 網路爬蟲
 
