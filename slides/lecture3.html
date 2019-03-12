@@ -12105,9 +12105,9 @@ True
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="if-statement"><code>if statement</code><a class="anchor-link" href="#if-statement">&#182;</a></h2><ul>
-<li><code>if</code> 第一個條件</li>
-<li><code>elif</code> 其他條件，可以有 0~多個</li>
-<li><code>else</code> 沒有符合前述 condition 的其他狀況，可以不使用</li>
+<li><code>if</code> （如果）：第一個條件</li>
+<li><code>elif</code> （否則如果）：其他條件，可以有 0~多個</li>
+<li><code>else</code> （否則）：沒有符合前述 condition 的其他狀況，可以不使用</li>
 <li>每一組只會有一個（或沒有）條件成立</li>
 <li>記得在屁股加上 <code>:</code> (冒號)</li>
 <li>需要以一個縮排<code>indent</code>（實際上為四個空白），做「排版」</li>
@@ -12120,6 +12120,50 @@ True
 <span class="k">else</span><span class="p">:</span>
     <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>如果你是電資學院:
+    請用手指比出 1
+否則如果你是管理學院:
+    請用手指比出 2
+否則:
+    請用手指比出 3</code></pre>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>如果你是 2000 年以前出生:
+    如果你是男生:
+        請用手指比出 1
+    否則如果你是女生:
+        請用手指比出 2
+
+否則如果你是 2000 年以後出生:
+    如果你是男生:
+        請用手指比出 3
+    否則如果你是女生:
+        請用手指比出 4</code></pre>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://www.tutorialspoint.com/scala/images/scala_decision_making.jpg" alt=""></p>
 
 </div>
 </div>
@@ -12351,10 +12395,91 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;">&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;">&#182;</a></h2><p>輸入兩個數字，輸出比較大的那一個</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="k">if</span> <span class="c1"># ...</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#32244;&#32722;&#65306;&#22855;&#20598;">&#32244;&#32722;&#65306;&#22855;&#20598;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#22855;&#20598;">&#182;</a></h2><p>輸入一個數，判斷他是奇數還是偶數？</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+
+<span class="c1"># Do it yourself</span>
+<span class="k">if</span> <span class="n">number</span>
+
+<span class="k">else</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;-&#31561;&#31532;&#21046;&#30340;&#25104;&#32318;">&#32244;&#32722;&#65306; &#31561;&#31532;&#21046;&#30340;&#25104;&#32318;<a class="anchor-link" href="#&#32244;&#32722;&#65306;-&#31561;&#31532;&#21046;&#30340;&#25104;&#32318;">&#182;</a></h2><p>輸入原始成績，輸出這門課得到的等地</p>
+<ul>
+<li>A &gt;= 80</li>
+<li>B &gt;= 70</li>
+<li>C &gt;= 60</li>
+<li>D &lt; 60</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># DIY</span>
+
+<span class="n">grade</span> <span class="o">=</span> <span class="c1"># input</span>
+
+<span class="k">if</span> <span class="n">grade</span>
+
+<span class="k">else</span> <span class="k">if</span> <span class="n">grade</span>
+
+<span class="k">else</span> <span class="k">if</span> <span class="n">grade</span>
+
+<span class="k">else</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12438,6 +12563,75 @@ True
 True
 False
 True
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;2">&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;2<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#25214;&#22823;&#30340;2">&#182;</a></h2><p>輸入三個數字，輸出最大的那一個</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">z</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="k">if</span> <span class="c1">#...</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32244;&#32722;&#65306;&#21098;&#20992;&#30707;&#38957;&#24067;">&#32244;&#32722;&#65306;&#21098;&#20992;&#30707;&#38957;&#24067;<a class="anchor-link" href="#&#32244;&#32722;&#65306;&#21098;&#20992;&#30707;&#38957;&#24067;">&#182;</a></h2><p>和電腦玩剪刀石頭布吧！</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">AI</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s1">&#39;剪&#39;</span><span class="p">,</span><span class="s1">&#39;石&#39;</span><span class="p">,</span><span class="s1">&#39;布&#39;</span><span class="p">])</span> <span class="c1"># 電腦會隨機選一個</span>
+<span class="n">player</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>剪刀
 </pre>
 </div>
 </div>
