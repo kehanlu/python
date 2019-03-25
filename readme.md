@@ -23,9 +23,12 @@
 - Condition
   - [slide](https://hanklu.tw/python/slides/lecture3.html)
   - [notebook](http://hanklu.tw/python/notebooks/condition.ipynb)
-- loop
+- Loop
   - [slide](https://hanklu.tw/python/slides/lecture4.html)
   - [notebook](http://hanklu.tw/python/notebooks/loop.ipynb)
+- Function and Library
+  - [slide](https://hanklu.tw/python/slides/lecture5.html)
+  - [notebook](http://hanklu.tw/python/notebooks/lecture5.html)
 
 ### 網路爬蟲
 
@@ -33,7 +36,7 @@
 
 ### 網路應用（後端、Chatbot）
 
-## Other resources
+## Related resources
 
 - [python for everybody](https://py4e.org)
   - [coursera](https://zh-tw.coursera.org/learn/python)
@@ -43,6 +46,6 @@
 
 - [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
-## Package used
+## Other
 
 [reveal.js](https://github.com/hakimel/reveal.js)
