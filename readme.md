@@ -18,16 +18,16 @@
 ### Python basic
 
 - Variable and types
-  - [slide](https://hanklu.tw/python/slides/lecture2.html)
-  - [notebook](http://hanklu.tw/python/notebooks/variable&type.ipynb)
+  - [slide](https://hanklu.tw/python/slides/lecture2.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture2.ipynb)
 - Condition
-  - [slide](https://hanklu.tw/python/slides/lecture3.html)
-  - [notebook](http://hanklu.tw/python/notebooks/condition.ipynb)
+  - [slide](https://hanklu.tw/python/slides/lecture3.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture3.ipynb)
 - Loop
-  - [slide](https://hanklu.tw/python/slides/lecture4.html)
-  - [notebook](http://hanklu.tw/python/notebooks/loop.ipynb)
+  - [slide](https://hanklu.tw/python/slides/lecture4.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture4.ipynb)
 - Function and Library
-  - [slide](https://hanklu.tw/python/slides/lecture5.html)
+  - [slide](https://hanklu.tw/python/slides/lecture5.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/lecture5.html)
 
 ### 網路爬蟲
