@@ -10,6 +10,8 @@
 
 ## Lectures
 
+> note: 教材的標題是依據每週的上課目標，內容可能會搭配補充觀念在各簡報中
+
 ### Introduction
 
 - [slide](https://hanklu.tw/python/slides/lecture1.pdf)
@@ -17,20 +19,24 @@
 
 ### Python basic
 
-- Variable and types
+- 2-Variable and types
   - [slide](https://hanklu.tw/python/slides/lecture2.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/leture2.ipynb)
-- Condition
+- 3-Condition
   - [slide](https://hanklu.tw/python/slides/lecture3.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/leture3.ipynb)
-- Loop
+- 4-Loop
   - [slide](https://hanklu.tw/python/slides/lecture4.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/leture4.ipynb)
-- Function and Library
+- 5-Function and Library
   - [slide](https://hanklu.tw/python/slides/lecture5.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/lecture5.html)
 
 ### 網路爬蟲
+
+- 6-基礎知識
+  - [slide](https://hanklu.tw/python/slides/lecture6.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture6.ipynb)
 
 ### 資料視覺化
 
