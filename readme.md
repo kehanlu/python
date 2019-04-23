@@ -35,8 +35,13 @@
 ### 網路爬蟲
 
 - 6-基礎知識
+
   - [slide](https://hanklu.tw/python/slides/lecture6.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/leture6.ipynb)
+
+- 7-進階知識&實作
+  - [slide](https://hanklu.tw/python/slides/lecture7.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture7.ipynb)
 
 ### 資料視覺化
 
