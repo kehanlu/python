@@ -45,6 +45,10 @@
 
 ### 資料視覺化
 
+- 8-Pandas
+  - [slide](https://hanklu.tw/python/slides/lecture8.slides.html)
+  - [notebook](http://hanklu.tw/python/notebooks/leture8.ipynb)
+
 ### 網路應用（後端、Chatbot）
 
 ## Related resources
