@@ -51,6 +51,9 @@
 
 ### 網路應用（後端、Chatbot）
 
+- 9-Django
+  - [slide](https://docs.google.com/presentation/d/1VUzg5uuPAwcfK-s1RFF0nByRJHBvEDffpzS-MC8ictk/edit?usp=sharing)
+
 ## Related resources
 
 - [python for everybody](https://py4e.org)
