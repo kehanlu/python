@@ -49,10 +49,14 @@
   - [slide](https://hanklu.tw/python/slides/lecture8.slides.html)
   - [notebook](http://hanklu.tw/python/notebooks/leture8.ipynb)
 
-### 網路應用（後端、Chatbot）
+### 網路應用（Django）
 
-- 9-Django
-  - [slide](https://docs.google.com/presentation/d/1VUzg5uuPAwcfK-s1RFF0nByRJHBvEDffpzS-MC8ictk/edit?usp=sharing)
+- 9-Introduction & Template engine
+
+  - [slide](https://docs.google.com/presentation/d/1VUzg5uuPAwcfK-s1RFF0nByRJHBvEDffpzS-MC8ictk)
+
+- 10-Model
+  - [slide](https://docs.google.com/presentation/d/1Pjv_96V2HJaX6CQdqXGbukiTX9ufAxyT5VdIIM7hbfE)
 
 ## Related resources
 
