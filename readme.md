@@ -56,7 +56,11 @@
   - [slide](https://docs.google.com/presentation/d/1VUzg5uuPAwcfK-s1RFF0nByRJHBvEDffpzS-MC8ictk)
 
 - 10-Model
+
   - [slide](https://docs.google.com/presentation/d/1Pjv_96V2HJaX6CQdqXGbukiTX9ufAxyT5VdIIM7hbfE)
+
+- 11-Chatbot 串接
+  - [slide](https://docs.google.com/presentation/d/1iNuMxyC-rwFBfEB67RbHzb1oym30vJ84dFpxuAJWhNg)
 
 ## Related resources
 
